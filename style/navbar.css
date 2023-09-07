@@ -29,3 +29,54 @@ header nav ul {
 nav ul li a:hover {
   color: var(--themeColor);
 }
+
+/*=== MOBILE VIEW ===*/
+@media screen and (max-width: 900px) {
+  header .nav-menu {
+    display: none;
+  }
+}
+
+/*== DEESKTOP VIEW ===*/
+@media screen and (min-width: 900px) {
+  header .fries-menu {
+    display: none;
+  }
+  #fries-menu {
+    display: none;
+  }
+}
+
+/*=== FRIES MENU SECTION ===*/
+#fries-menu {
+  background-color: var(--bgColor);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+
+}
+#fries-menu  ul {
+  font-size: 2.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2.6rem;
+}
+#fries-menu ul li a:hover {
+  color: var(--themeColor);
+}
+#close-fries-menu {
+  position: absolute;
+  top: 3rem;
+  right: 2rem;
+  border: 1px solid #000;
+  border-radius: 50%;
+  padding: .5em;
+}
+/*=== END OF FRIES MENU SECTION ===*/

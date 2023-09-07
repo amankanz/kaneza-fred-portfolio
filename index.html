@@ -18,7 +18,7 @@
 <body>
   <header>
     <div class="logo"><a href="#">KANEZA</a></div>
-    <nav>
+    <nav class="nav-menu">
       <ul>
         <li><a href="#">HOME</a></li>
         <li><a href="#">ABOUT US</a></li>
@@ -27,9 +27,28 @@
         <li><a href="#">CONTACT US</a></li>
       </ul>
     </nav>
+    <div class="fries-menu">
+      <i data-feather="align-right" onclick="showMenu()"></i>
+    </div>
+
+    <!--=== FFRIES MENU ===-->
+    
   </header><!--=== END OF HEADER SECTION ===-->
+  
 
   <main>
+    <nav id="fries-menu">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">OUR WORK</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">CONTACT US</a></li>
+      </ul>
+      <div id="close-fries-menu">
+        <i data-feather="x" onclick="hideFriesMenu()"></i>
+      </div>
+    </nav>
     <!-- example icon -->
     <i data-feather="circle"></i>
     
@@ -43,7 +62,18 @@
 
   <!--=== SCRIPT SECTION ===-->
   <script>
+    //FEATHER ICONS
     feather.replace();
+
+    //SHOW FRIES MENUS
+    function showMenu() {
+      document.getElementById('fries-menu').style.display = 'flex';
+    }
+
+    //HIDE FRIES MENUS
+    function hideFriesMenu() {
+      document.getElementById('fries-menu').style.display = 'none';
+    }
   </script>
 </body>
 </html>
