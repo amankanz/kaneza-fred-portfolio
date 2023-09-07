@@ -1,0 +1,31 @@
+/*=== GLOBAL VARIABLE ===*/
+:root {
+  --themeColor: #B4DAE3;
+  --bgColor: #FFFFFF;
+  --sideBGColor: #C5C3C6;
+  --iconBGColor: #BCBCBC;
+  --textColor: #121212;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+  padding: 3em 0;
+}
+header .logo {
+  font-size: 2.6rem;
+} 
+
+header nav ul {
+  display: flex;
+  column-gap: 3rem;
+  font-size: 1.6rem;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: var(--themeColor);
+}
