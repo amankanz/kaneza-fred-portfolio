@@ -39,11 +39,11 @@
   <main>
     <nav id="fries-menu">
       <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT US</a></li>
-        <li><a href="#">OUR WORK</a></li>
-        <li><a href="#">BLOG</a></li>
-        <li><a href="#">CONTACT US</a></li>
+        <li><a href="">HOME</a></li>
+        <li><a href="">ABOUT US</a></li>
+        <li><a href="">OUR WORK</a></li>
+        <li><a href="">BLOG</a></li>
+        <li><a href="">CONTACT US</a></li>
       </ul>
       <div id="close-fries-menu">
         <i data-feather="x" onclick="hideFriesMenu()"></i>
@@ -68,6 +68,7 @@
     //SHOW FRIES MENUS
     function showMenu() {
       document.getElementById('fries-menu').style.display = 'flex';
+      document.getElementById('fries-menu').classList.add('slide-from-right');
     }
 
     //HIDE FRIES MENUS
