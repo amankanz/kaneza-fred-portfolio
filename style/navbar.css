@@ -59,7 +59,7 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   transition: 0.3s;
-
+  z-index: 150;
 }
 #fries-menu  ul {
   font-size: 2.6rem;

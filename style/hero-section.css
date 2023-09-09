@@ -1,0 +1,51 @@
+.hero-section {
+  background: url(../images/nubelson-fernandes-keybord-BW.jpg) scroll no-repeat center center / cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+/*=== START OF HEADLINE SECTION ===*/
+.hero-section .head-line {
+  position: absolute;
+  z-index: 100;
+  text-align: center;
+
+
+}
+.hero-section .head-line h1 {
+  font-size: 4.3rem;
+  font-weight: 100;
+
+}
+.head-line h1 div:not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+.head-line h1 div:last-of-type {
+  font-weight: 700;
+  letter-spacing: 2.5px;
+
+}
+.head-line .headline-message {
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+
+/*=== END OF HEADLINE SECTION ===*/
+
+/*=== OVERLAY SECTION ===*/
+.hero-section .over-lay {
+  position: absolute;
+  background-color: rgb(255 255 255 / 69%);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+
+}
+
+
