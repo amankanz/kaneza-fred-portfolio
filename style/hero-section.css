@@ -1,3 +1,12 @@
+/*=== GLOBAL VARIABLE ===*/
+:root {
+  --themeColor: #B4DAE3;
+  --bgColor: #FFFFFF;
+  --sideBGColor: #C5C3C6;
+  --iconBGColor: #BCBCBC;
+  --textColor: #121212;
+}
+
 .hero-section {
   background: url(../images/nubelson-fernandes-keybord-BW.jpg) scroll no-repeat center center / cover;
   height: 100vh;
@@ -12,7 +21,7 @@
   position: absolute;
   z-index: 100;
   text-align: center;
-
+  margin-top: 5.7rem;
 
 }
 .hero-section .head-line h1 {
@@ -29,9 +38,22 @@
 
 }
 .head-line .headline-message {
-  margin-top: 4rem;
+  /* margin-top: 4rem;
+  margin-bottom: 6.5rem; */
+  margin: 4rem 0 6.5rem;
   font-size: 1.5rem;
   letter-spacing: 3px;
+}
+.head-line .hire-me-btn {
+  background-color: var(--textColor);
+  color: var(--bgColor);
+  transition: 0.3s;
+  font-size: 1.5rem;
+  padding: .8em 1.6em;
+  border-radius: 3px;
+}
+.head-line .hire-me-btn:hover {
+  background-color: var(--themeColor);
 }
 
 /*=== END OF HEADLINE SECTION ===*/
@@ -45,7 +67,29 @@
   top: 0;
   left: 0;
 
+}
 
+
+/*=== TABLET VIEW ===*/
+@media screen and (min-width: 600px) and (max-width: 920px) {
+  .hero-section .head-line {
+    margin-top: 38%;
+  }
+
+}
+
+/*=== DESKTOP VIEW ===*/
+@media screen and (min-width: 920px) {
+  .hero-section {
+    /* align-items: center; */
+  }
+  .hero-section .head-line {
+    margin-top: 8%;
+  
+  }
+  .head-line .headline-message {
+    margin-bottom: 4.7rem;
+  }
 }
 
 
