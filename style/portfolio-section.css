@@ -1,0 +1,39 @@
+/*=== GLOBAL VARIABLE ===*/
+:root {
+  --themeColor: #B4DAE3;
+  --bgColor: #FFFFFF;
+  --sideBGColor: #C5C3C6;
+  --iconBGColor: #BCBCBC;
+  --textColor: #121212;
+}
+
+.portfolio-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* row-gap: 10px; */
+  /* column-gap: 10px; */
+  gap: 10px 20px;
+  /* justify-content: center; */
+}
+.portfolio-section .grid-items {
+  background-color: var(--textColor);
+  color: var(--bgColor);
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid var(--iconBGColor);
+}
+.portfolio-section .item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+/*=== GRID SECTION END*/
+.portfolio-menu {
+  /* padding: 3em 0; */
+}
+.portfolio-menu ul {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  /* font-size: 1.6rem; */
+}
