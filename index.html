@@ -117,8 +117,14 @@
         </div>
       </div><!--=== END OF LOGOS CONTACT ===-->
       <div class="container-form">
-        <form action="process.php">
-
+        <form action="process_file.php" method="post" aria-required="true">
+          <input type="text" name="fullname" placeholder="Enter Your Full Name" class="input-name">
+          <input type="email" name="email" placeholder="Enter Your Email" >
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Leave a message" class="message"></textarea>
+          <button type="submit" class="submit-btn">
+            SEND <i data-feather="arrow-right"></i>
+          </button>
+          
         </form>
       </div>
 

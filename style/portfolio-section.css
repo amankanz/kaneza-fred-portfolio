@@ -95,6 +95,24 @@
 .email, .phone, div:first-child {
   margin-bottom: 10px;
 }
+
+.container-form {
+}
+.container-form form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.container-form form input, textarea {
+  border: .5px solid var(--iconBGColor);
+  padding: 10px 5px;
+}
+.container-form form input:focus {
+  border-color: var(--themeColor);
+}
+form input::placeholder, textarea::placeholder {
+  font-size: 16px;
+}
 /*=== END OF CONTACT SECTION ===*/
 
 
@@ -143,7 +161,10 @@
     width: 100%;
     margin: 0 auto;
   }
-
+  .container-form form{
+    width: 100%;
+    margin: 0 auto;
+  }
 
 
 }
@@ -196,6 +217,10 @@
 
   /*=== CONTACT SECTION ===*/
   .contact-section .logo-contact {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .container-form form{
     width: 80%;
     margin: 0 auto;
   }
@@ -252,6 +277,10 @@
 
   /*=== CONTACT SECTION ===*/
   .contact-section .logo-contact {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .container-form form{
     width: 50%;
     margin: 0 auto;
   }
