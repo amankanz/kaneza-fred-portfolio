@@ -99,7 +99,7 @@
 /*=== FORM SECTION ===*/
 .container-form {
 }
-.container-form form:not(button){
+.container-form form {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
@@ -111,13 +111,14 @@
   /* background-color: #C5C3C6; */
 }
 form input:focus, textarea:focus {
-  border-color: red;
+  /* border-color: red; */
   background-color: #bdbdbd4d;
   color: var(--textColor);
   font-size: 16px;
 }
 form input::placeholder, textarea::placeholder {
   font-size: 16px;
+  /* font-weight: 500; */
 }
 
 form .submit-btn {
