@@ -124,7 +124,7 @@ form input::placeholder, textarea::placeholder {
 form .submit-btn {
   width: 100px;
   margin: 0 70%;
-  
+
 }
 /*=== END OF CONTACT SECTION ===*/
 
@@ -237,6 +237,11 @@ form .submit-btn {
     width: 80%;
     margin: 0 auto;
   }
+  form .submit-btn {
+    width: 100px;
+    margin: 0 83%;
+    
+  }
 
 }
 
@@ -296,6 +301,11 @@ form .submit-btn {
   .container-form form{
     width: 50%;
     margin: 0 auto;
+  }
+  form .submit-btn {
+    width: 100px;
+    margin: 0 83%;
+    
   }
   
 }
