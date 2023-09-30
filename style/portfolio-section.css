@@ -122,7 +122,9 @@ form input::placeholder, textarea::placeholder {
 }
 
 form .submit-btn {
-  /* width: 100%; */
+  width: 100px;
+  margin: 0 70%;
+  
 }
 /*=== END OF CONTACT SECTION ===*/
 
